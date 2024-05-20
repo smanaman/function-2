@@ -2,10 +2,11 @@
 
 int count(int a) {
     if (a % 2 == 0) {
-        return "The number is even.";
+      printf(" your number is even");
     } else {
-        return "The number is odd.";
+      printf(" your number is odd");
     }
+    return a;
 }
 
 int main() {

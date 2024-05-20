@@ -4,16 +4,18 @@
 // Output Format: The factorial of the given number.
 #include<stdio.h>
   int count(int a){
-      int sum,r;
-     for(int i=1; i<=5;i++){
- sum*=i;
-r=sum*=i;
+      int sum=1;
+     for(int i=1; i<=a;i++){
+
+      sum*=i;
 }
-return r ;
+return sum;
   }
   int main(){
     int a;
+    printf("Enter your number");
+    scanf("%d",&a);
   
  
- printf("The square of the given number:=%d",);
+ printf("The factorial of the given number:=%d",count(a));
   }
